@@ -41,7 +41,10 @@ audio {
   margin-top: 30px;
 }
 #play-pause {background-color: var(--primary);}
-#vol{color: var(--primary);}
+#vol{
+  color: var(--primary);
+  transform: translateY(2px);
+}
 input[type="range"]::-webkit-slider-thumb{background: var(--primary);}
 input[type="range"]::-moz-range-thumb{background: var(--primary);}
 input[type="range"]::-ms-slider-thumb{background: var(--primary);}
